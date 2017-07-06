@@ -13,5 +13,6 @@ Download the speedtest.net command line script speedtest.py from https://github.
   
 Edit tweetspeed.py and change it to fit your needs.  
 Input your specific TOKEN_KEY, TOKEN, CON_SEC_KEY, and CON_SEC.  
+  
 NOTE: if you're not able to send a tweet from this script, switch the values of TOKEN_KEY and TOKEN, and CON_SEC_KEY and CON_SEC (I got them backwards myself).  
 

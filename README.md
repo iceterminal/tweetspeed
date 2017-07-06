@@ -2,7 +2,7 @@
 Tweet your internet speed when it falls below XX mpbs. Notify your ISP via twitter.
 
 
-Steps  
+### Steps  
 First, create a Twitter application. Go to https://apps.twitter.com/ and click on Create New App.  
 After creating the application, click on the tab that says Keys and Access Tokens.   
 Generate the Consumer Key and Secret.  

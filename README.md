@@ -1,7 +1,8 @@
 # tweetspeed
 Tweet your internet speed when it falls below XX mpbs. Notify your ISP via twitter.
-
-
+  
+This script will run a command line internet speed test, and then log it locally as well as TWEET the slow results to your ISP via twitter. Can be manual or automatic.
+  
 ### Steps  
 First, create a Twitter application. Go to https://apps.twitter.com/ and click on Create New App.  
 After creating the application, click on the tab that says Keys and Access Tokens.   

@@ -42,7 +42,7 @@ def test():
         #writer.writerow([]) # adds extra blank row to log file
         out_file.close()
 
-        #connect to twitter
+        #connect to twitter. Update with your twitter login keys/secrets. See README.md
         TOKEN_KEY=" "
         TOKEN=" "
         CON_SEC_KEY=" "
@@ -51,7 +51,7 @@ def test():
         my_auth = twitter.OAuth(TOKEN,TOKEN_KEY,CON_SEC,CON_SEC_KEY)
         twit = twitter.Twitter(auth=my_auth)
 
-        #try to tweet if speedtest couldnt even connet. Probably wont work if the internet is down
+        #try to tweet if speedtest couldnt connect. Probably wont work if the internet is down. Update with YOUR INFO
         if "Cannot" in a:
                 try:
                         tweet="Hey @FrontierCorp @askfrontier, why is my internet down? I pay for 75Mbps down\\75Mbps up in Dallas area? #frontieroutage #frontier #frontierfios"
